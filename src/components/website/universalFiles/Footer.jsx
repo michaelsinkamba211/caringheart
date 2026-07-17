@@ -7,8 +7,9 @@ import {
     LuPhone, LuMail, LuMapPin, LuClock, LuShield, LuBadgeCheck, LuHeadphones,
 } from "react-icons/lu";
 
+import LOGO_SRC from "../../assets/logo/caringheartlogo.jpg";
+
 const SITE_NAME = "Caring Hearts";
-const LOGO_SRC = "/src/assets/logo/caringheartlogo.jpg";
 const PHONE_DISPLAY = "(857) 405-5050";
 const PHONE_TEL = "+18574055050";
 const EMAIL = "info@caringheartshomecare.com";
