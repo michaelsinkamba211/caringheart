@@ -17,6 +17,8 @@ import HospitalRecovery   from "/src/assets/servicesimages/Post-HospitalRecovery
 import DementiaCare   from "/src/assets/servicesimages/DementiaCare.jpg"
 
 import ServiceDetailSection from "./ServiceDetailSection";
+
+
 export const PersonalCareSection = () => (
     <ServiceDetailSection
         // icon={LuUserRound}
