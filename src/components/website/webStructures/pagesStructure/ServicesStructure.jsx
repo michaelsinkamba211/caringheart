@@ -1,8 +1,13 @@
 import React from 'react';
-import { CompanionCareSection, DementiaCareSection, HomemakingSection, LiveInCareSection, MealPreparationSection, MedicationRemindersSection, PersonalCareSection, PostHospitalRecoverySection, RespiteCareSection, TransportationSection, TwentyFourHourCareSection } from '../Structures/ServiceComponents/ServiceSections';
 import ServicesHeroSection from '../Structures/ServiceComponents/Servicesherosection';
 import ServicesGridSection from '../Structures/ServiceComponents/Servicesgridsection';
 import CTASection from '../Structures/HomeComponents/Ctasection';
+
+import { CompanionCareSection, DementiaCareSection,
+   HomemakingSection, LiveInCareSection, MealPreparationSection,
+    MedicationRemindersSection, PersonalCareSection,
+     PostHospitalRecoverySection, RespiteCareSection, 
+     TransportationSection, TwentyFourHourCareSection }  from '../Structures/ServiceComponents/ServiceSections';
 
 
 const ServicesStructure = () => {
