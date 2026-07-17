@@ -2,7 +2,6 @@ import {
     LuUserRound, LuMessageCircleHeart, LuSprayCan, LuUtensils, LuPill,
     LuBrain, LuMoon, LuSun, LuCar, LuHeartHandshake, LuActivity,
 } from "react-icons/lu";
-import ServiceDetailSection from "./ServiceDetailSection";
 
 import personalCareImage from "/src/assets/servicesimages/personaCare.jpg"
 import companioCare from "/src/assets/servicesimages/companionCare.jpg"
@@ -17,6 +16,7 @@ import RespiteCare  from "/src/assets/servicesimages/RespiteCare.jpg"
 import HospitalRecovery   from "/src/assets/servicesimages/Post-HospitalRecovery.jpg"
 import DementiaCare   from "/src/assets/servicesimages/DementiaCare.jpg"
 
+import ServiceDetailSection from "./ServiceDetailSection";
 export const PersonalCareSection = () => (
     <ServiceDetailSection
         // icon={LuUserRound}
