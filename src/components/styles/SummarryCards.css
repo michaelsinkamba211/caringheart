@@ -1,0 +1,131 @@
+/* Summary Cards Responsive Styles */
+.summary-cards {
+  margin-bottom: 1rem;
+}
+
+.summary-cards .ant-card {
+  transition: all 0.3s ease;
+}
+
+.summary-cards .ant-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(-2px);
+}
+
+.summary-statistic .ant-statistic-title {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.summary-statistic .ant-statistic-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.summary-statistic .ant-statistic-content-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #374151;
+}
+
+.summary-statistic .ant-statistic-content-prefix {
+  display: flex;
+  align-items: center;
+  margin-right: 0.25rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .summary-statistic .ant-statistic-title {
+    font-size: 0.7rem;
+  }
+  
+  .summary-statistic .ant-statistic-content-value {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .summary-statistic .ant-statistic-title {
+    font-size: 0.65rem;
+  }
+  
+  .summary-statistic .ant-statistic-content-value {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .summary-cards {
+    margin-bottom: 0.5rem;
+  }
+  
+  .summary-statistic .ant-statistic-title {
+    font-size: 0.75rem;
+  }
+  
+  .summary-statistic .ant-statistic-content-value {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .summary-cards .ant-col {
+    margin-bottom: 0.5rem;
+  }
+  
+  .summary-statistic .ant-statistic-title {
+    font-size: 0.8rem;
+  }
+  
+  .summary-statistic .ant-statistic-content-value {
+    font-size: 1.2rem;
+  }
+  
+  .summary-statistic .ant-statistic-content {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .summary-statistic .ant-statistic-title {
+    text-align: center;
+  }
+}
+
+/* Ensure cards have equal height in each row */
+.summary-cards .ant-col {
+  display: flex;
+}
+
+.summary-cards .ant-card {
+  flex: 1;
+}
+
+/* Animation for better UX */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.summary-cards .ant-card {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.summary-cards .ant-col:nth-child(1) .ant-card { animation-delay: 0.1s; }
+.summary-cards .ant-col:nth-child(2) .ant-card { animation-delay: 0.2s; }
+.summary-cards .ant-col:nth-child(3) .ant-card { animation-delay: 0.3s; }
+.summary-cards .ant-col:nth-child(4) .ant-card { animation-delay: 0.4s; }
+.summary-cards .ant-col:nth-child(5) .ant-card { animation-delay: 0.5s; }
+.summary-cards .ant-col:nth-child(6) .ant-card { animation-delay: 0.6s; }

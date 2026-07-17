@@ -1,0 +1,1750 @@
+[
+  {
+    "id": 2,
+    "name": "ABSA BANK PLC",
+    "branches": [
+      {
+        "Location": "CHAMBISHI",
+        "SortCode": "25247"
+      },
+      {
+        "Location": "CHILENJE",
+        "SortCode": "20018"
+      },
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "20453"
+      },
+      {
+        "Location": "CHINGOLA & CHINGOLA PRESTIGE",
+        "SortCode": "20303"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "21109"
+      },
+      {
+        "Location": "CHOMA",
+        "SortCode": "21213"
+      },
+      {
+        "Location": "CORPORATE SERVICE CENTRE",
+        "SortCode": "20088"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "20099"
+      },
+      {
+        "Location": "INDEPENDENCE AVE",
+        "SortCode": "20054"
+      },
+      {
+        "Location": "KABULONGA",
+        "SortCode": "20019"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "20902"
+      },
+      {
+        "Location": "KAFUE HOUSE",
+        "SortCode": "20042"
+      },
+      {
+        "Location": "KAFUE PRESTIGE CENTRE",
+        "SortCode": "20043"
+      },
+      {
+        "Location": "KALULUSHI",
+        "SortCode": "22505"
+      },
+      {
+        "Location": "KAPIRI MPOSHI",
+        "SortCode": "22409"
+      },
+      {
+        "Location": "KASAMA",
+        "SortCode": "20807"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "20202"
+      },
+      {
+        "Location": "KITWE PRESTIGE CENTRE",
+        "SortCode": "20215"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "21005"
+      },
+      {
+        "Location": "LONGRIDGE PRESTIGE CENTRE",
+        "SortCode": "20015"
+      },
+      {
+        "Location": "LUANSHYA",
+        "SortCode": "20704"
+      },
+      {
+        "Location": "LUMUMBA ROAD",
+        "SortCode": "20013"
+      },
+      {
+        "Location": "MANDA HILL & MANDA HILL PRESTIGE",
+        "SortCode": "20014"
+      },
+      {
+        "Location": "MANSA",
+        "SortCode": "21908"
+      },
+      {
+        "Location": "MAZABUKA",
+        "SortCode": "23606"
+      },
+      {
+        "Location": "MKUSHI",
+        "SortCode": "22308"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "23115"
+      },
+      {
+        "Location": "MTENDERE",
+        "SortCode": "20017"
+      },
+      {
+        "Location": "MUFULIRA",
+        "SortCode": "20503"
+      },
+      {
+        "Location": "MUTABA HOUSE",
+        "SortCode": "20002"
+      },
+      {
+        "Location": "MUTABA PRESTIGE CENTRE",
+        "SortCode": "20005"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "20101"
+      },
+      {
+        "Location": "NDOLA PRESTIGE CENTRE",
+        "SortCode": "20108"
+      },
+      {
+        "Location": "NORTHEND & NORTHEND PRESTIGE",
+        "SortCode": "20003"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "22812"
+      },
+      {
+        "Location": "WOODGATE HOUSE",
+        "SortCode": "20006"
+      },
+      {
+        "Location": "ZAMBIA CORPORATE",
+        "SortCode": "20012"
+      }
+    ],
+    "created_at": "2026-01-23 10:52:30.189888 +00:00",
+    "updated_at": "2026-01-23 10:52:30.189888 +00:00",
+    "swift_code": null
+  },
+  {
+    "id": 21,
+    "name": "AB BANK ZAMBIA",
+    "branches": [
+      {
+        "Location": "CHELSTON BRANCH",
+        "SortCode": "210005"
+      },
+      {
+        "Location": "CHILENJE BRANCH",
+        "SortCode": "210002"
+      },
+      {
+        "Location": "CHIPATA BRANCH",
+        "SortCode": "211109"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "210000"
+      },
+      {
+        "Location": "KALINGALINGA BRANCH",
+        "SortCode": "210004"
+      },
+      {
+        "Location": "KITWE BRANCH",
+        "SortCode": "210207"
+      },
+      {
+        "Location": "MAIN CAIRO ROAD BRANCH",
+        "SortCode": "210001"
+      },
+      {
+        "Location": "MATERO",
+        "SortCode": "210003"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "210108"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.451976 +00:00",
+    "updated_at": "2026-01-19 13:25:07.451976 +00:00",
+    "swift_code": null
+  },
+  {
+    "id": 22,
+    "name": "ATLAS MARA",
+    "branches": [
+      {
+        "Location": "ACACIA PARK",
+        "SortCode": "160021"
+      },
+      {
+        "Location": "CHAMBISHI",
+        "SortCode": "162402"
+      },
+      {
+        "Location": "CHANGANAMAI",
+        "SortCode": "160205"
+      },
+      {
+        "Location": "CHAWAMA",
+        "SortCode": "160011"
+      },
+      {
+        "Location": "CHELSTONE",
+        "SortCode": "160010"
+      },
+      {
+        "Location": "CHIBOMBO",
+        "SortCode": "160904"
+      },
+      {
+        "Location": "CHILANGA",
+        "SortCode": "163501"
+      },
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "160401"
+      },
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "160301"
+      },
+      {
+        "Location": "CHINSALI",
+        "SortCode": "161701"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "161101"
+      },
+      {
+        "Location": "CHIRUNDU",
+        "SortCode": "161301"
+      },
+      {
+        "Location": "CHOMA",
+        "SortCode": "161201"
+      },
+      {
+        "Location": "CIVIC CENTRE",
+        "SortCode": "160012"
+      },
+      {
+        "Location": "CORPORATE",
+        "SortCode": "160017"
+      },
+      {
+        "Location": "DOWNTOWN",
+        "SortCode": "160016"
+      },
+      {
+        "Location": "EAST PARK",
+        "SortCode": "160018"
+      },
+      {
+        "Location": "GROVE",
+        "SortCode": "160002"
+      },
+      {
+        "Location": "GWEMBE",
+        "SortCode": "164101"
+      },
+      {
+        "Location": "H/O CLEARING",
+        "SortCode": "160000"
+      },
+      {
+        "Location": "IBEX HILL",
+        "SortCode": "160020"
+      },
+      {
+        "Location": "INDUSTRIAL",
+        "SortCode": "160004"
+      },
+      {
+        "Location": "ISOKA",
+        "SortCode": "161601"
+      },
+      {
+        "Location": "KABULONGA",
+        "SortCode": "160009"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "160901"
+      },
+      {
+        "Location": "KAFUE",
+        "SortCode": "163401"
+      },
+      {
+        "Location": "KAOMA",
+        "SortCode": "163001"
+      },
+      {
+        "Location": "KAPIRI MPOSHI",
+        "SortCode": "162401"
+      },
+      {
+        "Location": "KASAMA",
+        "SortCode": "160801"
+      },
+      {
+        "Location": "KASUMBALESA",
+        "SortCode": "162601"
+      },
+      {
+        "Location": "KATETE",
+        "SortCode": "161501"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "160201"
+      },
+      {
+        "Location": "LIVINSTONE",
+        "SortCode": "161001"
+      },
+      {
+        "Location": "LUANSHYA",
+        "SortCode": "160701"
+      },
+      {
+        "Location": "LUNDAZI",
+        "SortCode": "161401"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "160001"
+      },
+      {
+        "Location": "MAKENI",
+        "SortCode": "160007"
+      },
+      {
+        "Location": "MALL AGENCY",
+        "SortCode": "160019"
+      },
+      {
+        "Location": "MANDA HILL",
+        "SortCode": "160006"
+      },
+      {
+        "Location": "MANSA",
+        "SortCode": "161901"
+      },
+      {
+        "Location": "MATERO",
+        "SortCode": "160005"
+      },
+      {
+        "Location": "MAZABUKA",
+        "SortCode": "163601"
+      },
+      {
+        "Location": "MBALA",
+        "SortCode": "162001"
+      },
+      {
+        "Location": "MKUSHI",
+        "SortCode": "162301"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "163101"
+      },
+      {
+        "Location": "MONZE",
+        "SortCode": "163701"
+      },
+      {
+        "Location": "MPIKA",
+        "SortCode": "161801"
+      },
+      {
+        "Location": "MPOROKOSO",
+        "SortCode": "162101"
+      },
+      {
+        "Location": "MUFULIRA",
+        "SortCode": "160501"
+      },
+      {
+        "Location": "MUMBWA",
+        "SortCode": "160015"
+      },
+      {
+        "Location": "MWINILUNGA",
+        "SortCode": "162901"
+      },
+      {
+        "Location": "NAKONDE",
+        "SortCode": "162701"
+      },
+      {
+        "Location": "NAMWALA",
+        "SortCode": "163801"
+      },
+      {
+        "Location": "NDOLA BUTSEKO",
+        "SortCode": "160101"
+      },
+      {
+        "Location": "NDOLA JACARANDA",
+        "SortCode": "160102"
+      },
+      {
+        "Location": "NORTHEND",
+        "SortCode": "160003"
+      },
+      {
+        "Location": "PETAUKE",
+        "SortCode": "164201"
+      },
+      {
+        "Location": "SERENJE",
+        "SortCode": "162201"
+      },
+      {
+        "Location": "SESHEKE",
+        "SortCode": "163301"
+      },
+      {
+        "Location": "SIAVONGA",
+        "SortCode": "163901"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "162801"
+      },
+      {
+        "Location": "TWIN PALM",
+        "SortCode": "160013"
+      },
+      {
+        "Location": "UNZA",
+        "SortCode": "160008"
+      },
+      {
+        "Location": "WOODLANDS",
+        "SortCode": "160014"
+      },
+      {
+        "Location": "ZAMBEZI",
+        "SortCode": "163201"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453060 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453060 +00:00",
+    "swift_code": null
+  },
+  {
+    "id": 23,
+    "name": "BANK OF CHINA ZAMBIA",
+    "branches": [
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "100000"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "100201"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "100001"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453062 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453062 +00:00",
+    "swift_code": null
+  },
+  {
+    "id": 24,
+    "name": "BAYPORT FINACIAL SERVICES",
+    "branches": [
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "550307"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "551112"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "550099"
+      },
+      {
+        "Location": "HEROES",
+        "SortCode": "550003"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "550911"
+      },
+      {
+        "Location": "KAFUE",
+        "SortCode": "553416"
+      },
+      {
+        "Location": "KASAMA",
+        "SortCode": "550817"
+      },
+      {
+        "Location": "KITWE BRANCH",
+        "SortCode": "550202"
+      },
+      {
+        "Location": "KONKOLA",
+        "SortCode": "550309"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "551019"
+      },
+      {
+        "Location": "LUANSHYA",
+        "SortCode": "550706"
+      },
+      {
+        "Location": "LUSAKA BUSINESS CENTRE",
+        "SortCode": "550001"
+      },
+      {
+        "Location": "MANSA",
+        "SortCode": "551913"
+      },
+      {
+        "Location": "MAZABUKA",
+        "SortCode": "553618"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "553114"
+      },
+      {
+        "Location": "MPIKA",
+        "SortCode": "551815"
+      },
+      {
+        "Location": "MUFULIRIA",
+        "SortCode": "550508"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "550105"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "552810"
+      },
+      {
+        "Location": "UTH",
+        "SortCode": "550004"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453063 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453063 +00:00",
+    "swift_code": null
+  },
+  {
+    "id": 25,
+    "name": "ECOBANK ZAMBIA",
+    "branches": [
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "190302"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "190001"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "190201"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "190002"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "190101"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "192801"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453064 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453064 +00:00",
+    "swift_code": "ECOCZMLU"
+  },
+  {
+    "id": 26,
+    "name": "FIRST ALLIANCE BANK",
+    "branches": [
+      {
+        "Location": "KITWE",
+        "SortCode": "140201"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "140001"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "140101"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453064 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453065 +00:00",
+    "swift_code": "FALLZMLU"
+  },
+  {
+    "id": 27,
+    "name": "INVESTRUST BANK",
+    "branches": [
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "120402"
+      },
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "120301"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "121101"
+      },
+      {
+        "Location": "FREEDOM WAY",
+        "SortCode": "120002"
+      },
+      {
+        "Location": "INDUSTRIAL",
+        "SortCode": "120004"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "120901"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "120201"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "121001"
+      },
+      {
+        "Location": "LUMUMBA",
+        "SortCode": "120005"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "120001"
+      },
+      {
+        "Location": "MANDA HILL",
+        "SortCode": "120009"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "123101"
+      },
+      {
+        "Location": "MUFULIRA",
+        "SortCode": "120501"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "120101"
+      },
+      {
+        "Location": "ODYS",
+        "SortCode": "120007"
+      },
+      {
+        "Location": "SAVINGS CENTRE",
+        "SortCode": "120008"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "122801"
+      },
+      {
+        "Location": "SOWETO",
+        "SortCode": "120006"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453070 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453070 +00:00",
+    "swift_code": null
+  },
+  {
+    "id": 28,
+    "name": "UBA",
+    "branches": [
+      {
+        "Location": "CAIRO",
+        "SortCode": "370003"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "370099"
+      },
+      {
+        "Location": "HEAD OFFICE BRANCH",
+        "SortCode": "370001"
+      },
+      {
+        "Location": "KAMWALA",
+        "SortCode": "370002"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "370204"
+      },
+      {
+        "Location": "LEWANIKA BRANCH",
+        "SortCode": "370006"
+      },
+      {
+        "Location": "NDOLA BRANCH",
+        "SortCode": "370105"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453072 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453072 +00:00",
+    "swift_code": null
+  },
+  {
+    "id": 29,
+    "name": "ZAMBIA NATIONAL BUILDING SOCIETY",
+    "branches": [
+      {
+        "Location": "BANKING SOCIETY BUSINESS PARK",
+        "SortCode": "510019"
+      },
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "510468"
+      },
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "511136"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "511235"
+      },
+      {
+        "Location": "CHOMA",
+        "SortCode": "511235"
+      },
+      {
+        "Location": "COSMOPOLITAN",
+        "SortCode": "510042"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "510963"
+      },
+      {
+        "Location": "KAPIRI MPOSHI",
+        "SortCode": "512439"
+      },
+      {
+        "Location": "KASAMA",
+        "SortCode": "510869"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "510264"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "511037"
+      },
+      {
+        "Location": "LUANSHYA",
+        "SortCode": "510767"
+      },
+      {
+        "Location": "MANSA",
+        "SortCode": "511970"
+      },
+      {
+        "Location": "MAZABUKA",
+        "SortCode": "513615"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "513136"
+      },
+      {
+        "Location": "MONZE",
+        "SortCode": "513735"
+      },
+      {
+        "Location": "MPIKA",
+        "SortCode": "511871"
+      },
+      {
+        "Location": "MUFULIRA",
+        "SortCode": "510565"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "510166"
+      },
+      {
+        "Location": "SOCIETY HOUSE",
+        "SortCode": "510036"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "512838"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453073 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453073 +00:00",
+    "swift_code": null
+  },
+  {
+    "id": 30,
+    "name": "ACCESS BANK ZAMBIA",
+    "branches": [
+      {
+        "Location": "ACCESS BANK HOUSE",
+        "SortCode": "130002"
+      },
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "130403"
+      },
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "130302"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "131103"
+      },
+      {
+        "Location": "INDUSTRIAL",
+        "SortCode": "130003"
+      },
+      {
+        "Location": "KASAMA",
+        "SortCode": "130801"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "130201"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "131002"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "130001"
+      },
+      {
+        "Location": "MAKENI",
+        "SortCode": "130006"
+      },
+      {
+        "Location": "MANDA HILL",
+        "SortCode": "130005"
+      },
+      {
+        "Location": "MAZABUKA",
+        "SortCode": "133601"
+      },
+      {
+        "Location": "MKUSHI",
+        "SortCode": "132301"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "133101"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "130101"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "132801"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453059 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453059 +00:00",
+    "swift_code": "AZAMZMLU"
+  },
+  {
+    "id": 31,
+    "name": "ZANACO",
+    "branches": [
+      {
+        "Location": "ACACIA",
+        "SortCode": "90059"
+      },
+      {
+        "Location": "CAIRO ROAD BUSINESS CENTRE",
+        "SortCode": "90002"
+      },
+      {
+        "Location": "CASTLE",
+        "SortCode": "90057"
+      },
+      {
+        "Location": "CENTRE BRANCH",
+        "SortCode": "90003"
+      },
+      {
+        "Location": "CHADIZA",
+        "SortCode": "95001"
+      },
+      {
+        "Location": "CHAMA",
+        "SortCode": "95301"
+      },
+      {
+        "Location": "CHAWAMA",
+        "SortCode": "90016"
+      },
+      {
+        "Location": "CHELSTONE",
+        "SortCode": "90060"
+      },
+      {
+        "Location": "CHIBOMBO",
+        "SortCode": "90906"
+      },
+      {
+        "Location": "CHILANGA",
+        "SortCode": "93501"
+      },
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "90403"
+      },
+      {
+        "Location": "CHILUBI",
+        "SortCode": "95801"
+      },
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "90302"
+      },
+      {
+        "Location": "CHINSALI",
+        "SortCode": "91702"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "91102"
+      },
+      {
+        "Location": "CHIRUNDU",
+        "SortCode": "91302"
+      },
+      {
+        "Location": "CHOMA",
+        "SortCode": "91202"
+      },
+      {
+        "Location": "CIVIC CENTRE",
+        "SortCode": "90006"
+      },
+      {
+        "Location": "CORPORATE",
+        "SortCode": "90019"
+      },
+      {
+        "Location": "GOVERNMENT COMPLEX",
+        "SortCode": "90058"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "90099"
+      },
+      {
+        "Location": "I/O BRANCH",
+        "SortCode": "90098"
+      },
+      {
+        "Location": "INDUSTRIAL",
+        "SortCode": "90004"
+      },
+      {
+        "Location": "ISOKA",
+        "SortCode": "91602"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "90903"
+      },
+      {
+        "Location": "KAFUE",
+        "SortCode": "93402"
+      },
+      {
+        "Location": "KAFUE RIVER",
+        "SortCode": "93403"
+      },
+      {
+        "Location": "KALOMO",
+        "SortCode": "94001"
+      },
+      {
+        "Location": "KAOMA",
+        "SortCode": "93002"
+      },
+      {
+        "Location": "KAPIRI MPOSHI",
+        "SortCode": "92403"
+      },
+      {
+        "Location": "KASAMA",
+        "SortCode": "90802"
+      },
+      {
+        "Location": "KASEMPA",
+        "SortCode": "95501"
+      },
+      {
+        "Location": "KATETE",
+        "SortCode": "91502"
+      },
+      {
+        "Location": "KAWAMBWA",
+        "SortCode": "94401"
+      },
+      {
+        "Location": "KITWE BUSINESS CENTRE",
+        "SortCode": "90203"
+      },
+      {
+        "Location": "KITWE NORTH",
+        "SortCode": "90209"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "91003"
+      },
+      {
+        "Location": "LUANSHYA",
+        "SortCode": "90703"
+      },
+      {
+        "Location": "LUNDAZI",
+        "SortCode": "91402"
+      },
+      {
+        "Location": "LUSAKA INDUSTRIAL",
+        "SortCode": "90011"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "90001"
+      },
+      {
+        "Location": "MANDA HILL BRANCH",
+        "SortCode": "90014"
+      },
+      {
+        "Location": "MANSA BRANCH",
+        "SortCode": "91924"
+      },
+      {
+        "Location": "MONGU BRANCH",
+        "SortCode": "93126"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "90107"
+      },
+      {
+        "Location": "NORTH END",
+        "SortCode": "90005"
+      },
+      {
+        "Location": "NYIMBA BRANCH",
+        "SortCode": "95415"
+      },
+      {
+        "Location": "SERENJE BRANCH",
+        "SortCode": "92230"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "92819"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453074 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453074 +00:00",
+    "swift_code": "ZNCOZMLU"
+  },
+  {
+    "id": 32,
+    "name": "UNITED BANK FOR AFRICA",
+    "branches": [
+      {
+        "Location": "CAIRO",
+        "SortCode": "370003"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "370099"
+      },
+      {
+        "Location": "HEAD OFFICE BRANCH",
+        "SortCode": "370001"
+      },
+      {
+        "Location": "KAMWALA",
+        "SortCode": "370002"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "370204"
+      },
+      {
+        "Location": "LEWANIKA BRANCH",
+        "SortCode": "370006"
+      },
+      {
+        "Location": "NDOLA BRANCH",
+        "SortCode": "370105"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453077 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453077 +00:00",
+    "swift_code": "UNAFZMLU"
+  },
+  {
+    "id": 33,
+    "name": "STANDARD CHARTERED BANK",
+    "branches": [
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "60408"
+      },
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "60305"
+      },
+      {
+        "Location": "CHOMA",
+        "SortCode": "61214"
+      },
+      {
+        "Location": "CROSS ROADS",
+        "SortCode": "60018"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "60099"
+      },
+      {
+        "Location": "JACARANDA",
+        "SortCode": "60104"
+      },
+      {
+        "Location": "KABULONGA",
+        "SortCode": "60016"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "60910"
+      },
+      {
+        "Location": "KAFUE",
+        "SortCode": "63419"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "60206"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "61009"
+      },
+      {
+        "Location": "LUANSHYA",
+        "SortCode": "60707"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "60002"
+      },
+      {
+        "Location": "MANDA HILL",
+        "SortCode": "60015"
+      },
+      {
+        "Location": "MAZABUKA",
+        "SortCode": "63612"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "63117"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "60103"
+      },
+      {
+        "Location": "NORTHEND",
+        "SortCode": "60001"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "62813"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453071 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453071 +00:00",
+    "swift_code": "SCBLZMLX"
+  },
+  {
+    "id": 34,
+    "name": "ZAMBIA INDUSTRIAL COMMERCIAL BANK",
+    "branches": [
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "50099"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "50201"
+      },
+      {
+        "Location": "MAIN",
+        "SortCode": "50001"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "50101"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453073 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453073 +00:00",
+    "swift_code": "ZICBZMLU"
+  },
+  {
+    "id": 35,
+    "name": "FIRST NATIONAL BANK",
+    "branches": [
+      {
+        "Location": "ACACIA PREMIER BRANCH",
+        "SortCode": "260039"
+      },
+      {
+        "Location": "CAIRO BRANCH",
+        "SortCode": "260050"
+      },
+      {
+        "Location": "CHILENJE BRANCH",
+        "SortCode": "260046"
+      },
+      {
+        "Location": "CHINGOLA BRANCH",
+        "SortCode": "260322"
+      },
+      {
+        "Location": "CHIPATA BRANCH",
+        "SortCode": "261121"
+      },
+      {
+        "Location": "CHOMA BRANCH",
+        "SortCode": "261238"
+      },
+      {
+        "Location": "COMMERCIAL BRANCH",
+        "SortCode": "260001"
+      },
+      {
+        "Location": "INDUSTRIAL BRANCH",
+        "SortCode": "260002"
+      },
+      {
+        "Location": "KABULONGA PREMIER BRANCH",
+        "SortCode": "260072"
+      },
+      {
+        "Location": "KABWE BRANCH",
+        "SortCode": "260937"
+      },
+      {
+        "Location": "KALUMBILA BRANCH",
+        "SortCode": "262874"
+      },
+      {
+        "Location": "KITWE INDUSTRIAL BRANCH",
+        "SortCode": "260247"
+      },
+      {
+        "Location": "KITWE MAIN BRANCH",
+        "SortCode": "260212"
+      },
+      {
+        "Location": "KITWE PRIVATE CLIENTS",
+        "SortCode": "260261"
+      },
+      {
+        "Location": "LIVINGSTONE BRANCH",
+        "SortCode": "261061"
+      },
+      {
+        "Location": "LUANSHYA BRANCH",
+        "SortCode": "260741"
+      },
+      {
+        "Location": "LUSAKA PRIVATE CLIENTS",
+        "SortCode": "260061"
+      },
+      {
+        "Location": "MAKENI BRANCH",
+        "SortCode": "260016"
+      },
+      {
+        "Location": "MANDA HILL BRANCH",
+        "SortCode": "260014"
+      },
+      {
+        "Location": "MAZABUKA BRANCH",
+        "SortCode": "263613"
+      },
+      {
+        "Location": "MKUSHI BRANCH",
+        "SortCode": "262319"
+      },
+      {
+        "Location": "NDOLA MAIN BRANCH",
+        "SortCode": "260103"
+      },
+      {
+        "Location": "SOLWEZI BRANCH",
+        "SortCode": "262823"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453065 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453065 +00:00",
+    "swift_code": "FIRNZMLX"
+  },
+  {
+    "id": 36,
+    "name": "FIRST CAPITAL BANK",
+    "branches": [
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "170301"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "170099"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "170201"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "170001"
+      },
+      {
+        "Location": "MAKENI",
+        "SortCode": "170002"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "170101"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453065 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453065 +00:00",
+    "swift_code": "FRCGZMLU"
+  },
+  {
+    "id": 37,
+    "name": "CITI BANK ZAMBIA",
+    "branches": [
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "30469"
+      },
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "30366"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "31149"
+      },
+      {
+        "Location": "CHOMA",
+        "SortCode": "31264"
+      },
+      {
+        "Location": "CITIBANK NATSAVE",
+        "SortCode": "30007"
+      },
+      {
+        "Location": "CITIBANK ZNBS BRANCH",
+        "SortCode": "30008"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "30965"
+      },
+      {
+        "Location": "KAPIRI MPOSHI",
+        "SortCode": "32487"
+      },
+      {
+        "Location": "KASAMA",
+        "SortCode": "30858"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "30263"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "31062"
+      },
+      {
+        "Location": "LUANSHYA",
+        "SortCode": "30768"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "30061"
+      },
+      {
+        "Location": "MANSA",
+        "SortCode": "31952"
+      },
+      {
+        "Location": "MAZABUKA",
+        "SortCode": "33642"
+      },
+      {
+        "Location": "MKUSHI",
+        "SortCode": "32345"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "33139"
+      },
+      {
+        "Location": "MUFULIRA",
+        "SortCode": "30567"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "30164"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "32843"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453063 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453063 +00:00",
+    "swift_code": "CITIZMLU"
+  },
+  {
+    "id": 38,
+    "name": "INDO ZAMBIA BANK",
+    "branches": [
+      {
+        "Location": "CENTRAL PROCESSING CENTRE",
+        "SortCode": "90099"
+      },
+      {
+        "Location": "CHAWAMA",
+        "SortCode": "90013"
+      },
+      {
+        "Location": "CHELSTONE",
+        "SortCode": "90015"
+      },
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "90401"
+      },
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "90301"
+      },
+      {
+        "Location": "CHINSALI",
+        "SortCode": "91701"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "91101"
+      },
+      {
+        "Location": "CHOMA",
+        "SortCode": "91201"
+      },
+      {
+        "Location": "CROSS ROADS",
+        "SortCode": "90008"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "90098"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "90901"
+      },
+      {
+        "Location": "KAFUE",
+        "SortCode": "93401"
+      },
+      {
+        "Location": "KASAMA",
+        "SortCode": "90801"
+      },
+      {
+        "Location": "KASUMBALESA",
+        "SortCode": "92601"
+      },
+      {
+        "Location": "KATETE",
+        "SortCode": "91501"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "90201"
+      },
+      {
+        "Location": "KITWE INDUSTRIAL",
+        "SortCode": "90202"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "91001"
+      },
+      {
+        "Location": "LUNDAZI",
+        "SortCode": "91401"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "90001"
+      },
+      {
+        "Location": "MANDA HILL",
+        "SortCode": "90007"
+      },
+      {
+        "Location": "MANSA",
+        "SortCode": "91901"
+      },
+      {
+        "Location": "MATERO",
+        "SortCode": "90010"
+      },
+      {
+        "Location": "MAZABUKA",
+        "SortCode": "93601"
+      },
+      {
+        "Location": "MKUSHI",
+        "SortCode": "92301"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "93101"
+      },
+      {
+        "Location": "MPIKA",
+        "SortCode": "91801"
+      },
+      {
+        "Location": "MUFULIRA",
+        "SortCode": "90501"
+      },
+      {
+        "Location": "NAKONDE",
+        "SortCode": "92701"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "90101"
+      },
+      {
+        "Location": "NDOLA SPECIALISED CORPORATE",
+        "SortCode": "90102"
+      },
+      {
+        "Location": "NORTHMEAD",
+        "SortCode": "90004"
+      },
+      {
+        "Location": "NYIMBA",
+        "SortCode": "95401"
+      },
+      {
+        "Location": "PETAUKE",
+        "SortCode": "94201"
+      },
+      {
+        "Location": "SERENJE",
+        "SortCode": "92201"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "92801"
+      },
+      {
+        "Location": "SPECIALISED CORPORATE",
+        "SortCode": "90005"
+      },
+      {
+        "Location": "WOODLANDS",
+        "SortCode": "90014"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453068 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453068 +00:00",
+    "swift_code": "INZAZMLX"
+  },
+  {
+    "id": 39,
+    "name": "STANBIC BANK",
+    "branches": [
+      {
+        "Location": "CHILILABOMBWE",
+        "SortCode": "40404"
+      },
+      {
+        "Location": "CHINGOLA",
+        "SortCode": "40306"
+      },
+      {
+        "Location": "CHIPATA",
+        "SortCode": "41113"
+      },
+      {
+        "Location": "CHOMA",
+        "SortCode": "41215"
+      },
+      {
+        "Location": "HEAD OFFICE",
+        "SortCode": "40099"
+      },
+      {
+        "Location": "HEAD OFFICE BRANCH",
+        "SortCode": "40002"
+      },
+      {
+        "Location": "INDUSTRIAL",
+        "SortCode": "40003"
+      },
+      {
+        "Location": "KABWE",
+        "SortCode": "40909"
+      },
+      {
+        "Location": "KAPIRI MPOSHI",
+        "SortCode": "42416"
+      },
+      {
+        "Location": "KASAMA",
+        "SortCode": "40810"
+      },
+      {
+        "Location": "KITWE",
+        "SortCode": "40205"
+      },
+      {
+        "Location": "LIVINGSTONE",
+        "SortCode": "41008"
+      },
+      {
+        "Location": "LUSAKA MAIN",
+        "SortCode": "40001"
+      },
+      {
+        "Location": "MANDA HILL",
+        "SortCode": "40012"
+      },
+      {
+        "Location": "MAZABUKA",
+        "SortCode": "43611"
+      },
+      {
+        "Location": "MKUSHI",
+        "SortCode": "42312"
+      },
+      {
+        "Location": "MONGU",
+        "SortCode": "43118"
+      },
+      {
+        "Location": "NDOLA",
+        "SortCode": "40107"
+      },
+      {
+        "Location": "NDOLA SOUTH",
+        "SortCode": "40114"
+      },
+      {
+        "Location": "PRIVATE BANKING",
+        "SortCode": "40017"
+      },
+      {
+        "Location": "SOLWEZI",
+        "SortCode": "42812"
+      }
+    ],
+    "created_at": "2026-01-19 13:25:07.453071 +00:00",
+    "updated_at": "2026-01-19 13:25:07.453071 +00:00",
+    "swift_code": "SBICZMLX"
+  }
+]

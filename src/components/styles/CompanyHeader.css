@@ -1,0 +1,6 @@
+.FiMapPin, .FiPhone, .FiMail {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 120px !important;
+  margin-right: 40px !important; /* adjust the gap */
+}

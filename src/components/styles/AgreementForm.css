@@ -1,0 +1,126 @@
+.signature-container {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px;
+    text-align: center;
+   
+}
+
+.signature-image {
+    max-width: 150px;
+    max-height: 50px;
+    border-bottom: 1px solid #000;
+    
+    display: block;
+    object-fit: contain;
+}
+
+.pdf-signature-placeholder {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #666;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    padding: 5px;
+}
+
+.pdf-signature-placeholder strong {
+    font-size: 11px;
+    color: #333;
+    display: block;
+}
+
+.pdf-signature-placeholder small {
+    font-size: 9px;
+    color: #666;
+    display: block;
+    
+}
+
+.signature-label {
+    font-size: 9px;
+    color: #666;
+    text-align: center;
+    margin-top: -40px;
+    font-family: Arial, sans-serif;
+    text-transform: capitalize;
+ 
+}
+
+.agreement-text-content {
+    white-space: pre-wrap;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.agreement-text-content .signature-container {
+    display: inline-block;
+    margin: 0 10px;
+
+   
+}
+
+.agreement-content {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+/* Signature loading styles */
+.signature-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.signature-loading .spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e5e7eb;
+    border-top-color: #8b5cf6;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 8px;
+}
+
+.signature-loading small {
+    color: #6b7280;
+    font-size: 11px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Ensure modal is properly destroyed */
+.agreement-modal .ant-modal-content {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
