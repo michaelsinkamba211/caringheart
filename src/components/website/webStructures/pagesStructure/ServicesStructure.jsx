@@ -6,7 +6,7 @@ import { CompanionCareSection, DementiaCareSection,
    HomemakingSection, LiveInCareSection, MealPreparationSection,
     MedicationRemindersSection, PersonalCareSection,
      PostHospitalRecoverySection, RespiteCareSection, 
-     TransportationSection, TwentyFourHourCareSection }  from '../Structures/ServiceComponents/ServiceSections'
+     TransportationSection, TwentyFourHourCareSection }  from '../Structures/ServiceComponents/ServiceSectionsForServices';
 
 
 const ServicesStructure = () => {
