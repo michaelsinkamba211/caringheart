@@ -53,10 +53,8 @@ const Navbar = () => {
     return (
         <>
             <FontLoader />
-
             <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navBg}`}>
                 <div className="max-w-325 mx-auto px-3 sm:px-4 h-14 sm:h-16 flex items-center justify-between gap-4">
-
                     {/* ── Logo ── */}
                     <NavLink
                         to="/home"
@@ -71,16 +69,17 @@ const Navbar = () => {
                             />
                             <span className="absolute -bottom-0.5 -right-0.5 w-2 h-2 bg-magenta rounded-full border-2 border-white" />
                         </div>
-
                         <div>
-                            <p className="text-xs font-bold uppercase leading-tight text-left tracking-wide text-slate-800">
+                            <p className="text-xs font-bold text-magenta uppercase leading-tight text-left tracking-wide">
                                 {SITE_NAME}
                             </p>
-                            <p className="text-[.5rem] font-semibold tracking-widest uppercase leading-tight text-navy">
+                            <p className="text-[.5rem] font-semibold tracking-widest uppercase leading-tight text-slate-800">
                                 {SITE_TAGLINE}
                             </p>
                         </div>
                     </NavLink>
+
+                    
 
                     {/* ── Desktop nav links ── */}
                     <nav className="hidden md:flex items-center gap-0.5 flex-1 justify-center">
