@@ -131,8 +131,8 @@ const PrivacyPolicy = () => {
                     </p>
                     <div className="space-y-3">
                         {[
-                            { icon: LuMail, text: "info@caringheartshomecare.com" },
-                            { icon: LuPhone, text: "(857) 405-5050" },
+                            { icon: LuMail, text: "info@caringheartssolutions.com" },
+                            { icon: LuPhone, text: "(857) 277-90730" }, 
                             { icon: LuMapPin, text: "303 Wyman Street, Suite 300, Waltham, MA 02451" },
                         ].map(({ icon: Icon, text }) => (
                             <div key={text} className="flex items-center gap-3">

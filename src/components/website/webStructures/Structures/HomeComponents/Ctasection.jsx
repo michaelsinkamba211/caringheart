@@ -17,7 +17,7 @@ const CTASection = () => (
                 <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-magenta/20 blur-2xl" />
 
                 <h2 className="relative text-2xl sm:text-3xl font-light text-white leading-snug mb-3 max-w-xl mx-auto">
-                    Let us help you or your loved one<br className="hidden sm:block" />
+                    Let us help you or your loved one <br className="hidden sm:block" />
                 
                     live comfortably at <span className="text-magenta font-normal">home.</span>
                 </h2>
@@ -37,7 +37,7 @@ const CTASection = () => (
                         </motion.button>
                     </NavLink>
 
-                    <a href="tel:+18574055050">
+                    <a href="tel:+18572779073">
                         <motion.button
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.97 }}

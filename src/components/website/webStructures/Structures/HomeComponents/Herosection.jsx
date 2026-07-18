@@ -62,7 +62,7 @@ const HeroSection = () => {
                             </motion.button>
                         </NavLink>
 
-                        <a href="tel:+18574055050">
+                        <a href="tel:+18572779073">
                             <motion.button
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.97 }}

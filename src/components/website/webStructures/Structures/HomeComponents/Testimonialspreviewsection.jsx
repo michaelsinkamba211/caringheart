@@ -30,7 +30,7 @@ const TestimonialsPreviewSection = () => (
                     What Families Say
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-light text-slate-800 leading-tight">
-                    Trust, earned one<br />
+                    Trust is earned, one<br />
                     <span className="text-magenta">family at a time</span>
                 </h2>
             </motion.div>

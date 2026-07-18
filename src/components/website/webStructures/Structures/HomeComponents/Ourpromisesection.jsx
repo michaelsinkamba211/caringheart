@@ -21,7 +21,7 @@ const OurPromiseSection = () => (
                 </span>
 
                 <h2 className="text-2xl sm:text-3xl font-light text-slate-800 leading-snug mb-4">
-                    Every client deserves to feel<br className="hidden sm:block" />
+                    Every client deserves to feel <br className="hidden sm:block" />
                     respected, valued, and <span className="text-magenta">cared for.</span>
                 </h2>
 

@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { LuChevronDown } from "react-icons/lu";
+import { LuChevronDown, LuPhone } from "react-icons/lu";
 import { FontLoader } from "../../../../ui/fonts";
+import faqImage from "/src/assets/servicesimages/faqs.jpg";
+
 
 const FAQS = [
     {
@@ -85,16 +87,51 @@ const FAQAccordionSection = () => {
     return (
         <section className="py-10 bg-ivory">
             <FontLoader />
-            <div className="max-w-325 mx-auto px-2">
-                <div className="max-w-2xl mx-auto space-y-3">
-                    {FAQS.map((item, i) => (
-                        <FAQItem
-                            key={item.q}
-                            item={item}
-                            isOpen={openIndex === i}
-                            onToggle={() => setOpenIndex(openIndex === i ? -1 : i)}
-                        />
-                    ))}
+            <div className="max-w-325 mx-auto px-4 sm:px-8">
+                <div className="flex flex-col lg:flex-row gap-10 lg:gap-14 items-center">
+
+                    {/* ── Left: image, vertically centered and sticky-centered on desktop ── */}
+                    <motion.div
+                        initial={{ opacity: 0, x: -24 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        className="w-full lg:w-2/5 lg:sticky lg:top-1/2 lg:-translate-y-1/2"
+                    >
+                        <div className="relative rounded-sm overflow-hidden">
+                            <img
+                                src={faqImage}
+                                alt="A caregiver answering a question with a warm smile"
+                                className="w-full h-72 lg:h-[420px] object-cover"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-navy/70 via-navy/10 to-transparent" />
+
+                            {/* still-have-questions callout, overlaid bottom-left */}
+                            <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
+                                <p className="text-white text-sm font-semibold mb-2">
+                                    Still have questions?
+                                </p>
+                                <a
+                                    href="tel:+18572779073"
+                                    className="inline-flex items-center gap-2 px-4 py-2 rounded-sm text-xs font-semibold text-navy bg-white hover:bg-white/90 transition-all"
+                                >
+                                    <LuPhone size={13} />
+                                    Call (857) 277-9073
+                                </a>
+                            </div>
+                        </div>
+                    </motion.div>
+
+                    {/* ── Right: accordion ── */}
+                    <div className="w-full lg:w-3/5 space-y-3">
+                        {FAQS.map((item, i) => (
+                            <FAQItem
+                                key={item.q}
+                                item={item}
+                                isOpen={openIndex === i}
+                                onToggle={() => setOpenIndex(openIndex === i ? -1 : i)}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>

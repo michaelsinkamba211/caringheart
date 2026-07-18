@@ -6,14 +6,14 @@ const DETAILS = [
     {
         icon: LuPhone,
         label: "Phone",
-        value: "(857) 405-5050",
-        href: "tel:+18574055050",
+        value: "(857) 277-9073",
+        href: "tel:+18572779073",
     },
     {
         icon: LuMail,
         label: "Email",
-        value: "info@caringheartshomecare.com",
-        href: "mailto:info@caringheartshomecare.com",
+        value: "info@caringheartssolutions.com",
+        href: "mailto:info@caringheartssolutions.com",
     },
     {
         icon: LuMapPin,

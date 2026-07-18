@@ -28,7 +28,7 @@ const TestimonialsHeroSection = () => (
                 </span>
 
                 <h1 className="text-3xl sm:text-4xl font-light text-white leading-tight mb-4 max-w-xl mx-auto">
-                    Trust, earned one<br />
+                    Trust is earned, one<br />
                     <span className="text-magenta font-normal">family at a time</span>
                 </h1>
 

@@ -6,6 +6,7 @@ import WhyChooseUsPreviewSection from '../Structures/HomeComponents/Whychooseusp
 import OurPromiseSection from '../Structures/HomeComponents/Ourpromisesection';
 import TestimonialsPreviewSection from '../Structures/HomeComponents/Testimonialspreviewsection';
 import CTASection from '../Structures/HomeComponents/Ctasection';
+import FAQAccordionSection from '../Structures/ContactComponents/Faqaccordionsection';
 
 const HomeStructure = () => {
   return (
@@ -16,6 +17,14 @@ const HomeStructure = () => {
       <div id="why-choose-us"><WhyChooseUsPreviewSection /></div>
       <div id="our-promise"><OurPromiseSection /></div>
       <div id="testimonials"><TestimonialsPreviewSection /></div>
+
+
+         {/* FAQ Section */}
+      <div id="faq">
+        <FAQAccordionSection />
+      </div>
+
+
       <div id="cta"><CTASection /></div>
     </>
   );

@@ -37,11 +37,11 @@ const AreaMapSection = () => (
                         </div>
                     </div>
                     <a
-                        href="tel:+18574055050"
+                        href="tel:+18572779073"
                         className="flex items-center gap-2 px-4 py-2 rounded-sm text-sm font-semibold text-white bg-magenta hover:bg-magenta/90 transition-all"
                     >
                         <LuPhone size={14} />
-                        (857) 405-5050
+                        (857) 277-9073
                     </a>
                 </div>
             </motion.div>

@@ -2,11 +2,13 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
+import ChatbotWidget from "./components/website/universalFiles/Chatbotwidget.jsx";
 const root = createRoot(document.getElementById("root"));
 
 root.render(
   <StrictMode>
         <App />
+        <ChatbotWidget />
   </StrictMode>
 );
 

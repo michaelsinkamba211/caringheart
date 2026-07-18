@@ -5,6 +5,7 @@ import MissionVisionSection from '../Structures/AboutComponents/Missionvisionsec
 import CoreValuesSection from '../Structures/AboutComponents/Corevaluessection';
 import FounderMessageSection from '../Structures/AboutComponents/Foundermessagesection';
 import CTASection from '../Structures/HomeComponents/Ctasection';
+import FAQAccordionSection from '../Structures/ContactComponents/Faqaccordionsection';
 
 
 const AboutStructure = () => {
@@ -15,7 +16,10 @@ const AboutStructure = () => {
       <div id="mission-vision"><MissionVisionSection /></div>
       <div id="core-values"><CoreValuesSection /></div>
       <div id="founder-message"><FounderMessageSection /></div>
-      <div id="cta"><CTASection/></div>
+      <div id="faq">
+        <FAQAccordionSection />
+      </div>
+      <div id="cta"><CTASection /></div>
     </>
   );
 };

@@ -17,8 +17,8 @@ const NAV_ITEMS = [
 const SITE_NAME = "Caring Hearts";
 const SITE_TAGLINE = "Home Care Solutions";
 const LOGO_SRC = "/logo/caringheartlogo.jpg";
-const PHONE_DISPLAY = "(857) 405-5050";
-const PHONE_TEL = "+18574055050";
+const PHONE_DISPLAY = "(857) 277-90730";
+const PHONE_TEL = "+18572779073";
 
 const Navbar = () => {
     const { pathname } = useLocation();
