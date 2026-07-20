@@ -4,7 +4,7 @@ import { LuHouse, LuChevronRight } from "react-icons/lu";
 import { FontLoader } from "../../../../ui/fonts";
 import careProcessBg from "/src/assets/HeroImages/careerpage.jpg";
 
-const CareProcessHeroSection = () => (
+const CareProcessHeroesSection = () => (
     <section className="relative overflow-hidden py-20 sm:py-24">
         <FontLoader />
 
@@ -57,4 +57,4 @@ const CareProcessHeroSection = () => (
     </section>
 );
 
-export default CareProcessHeroSection;
+export default CareProcessHeroesSection;
