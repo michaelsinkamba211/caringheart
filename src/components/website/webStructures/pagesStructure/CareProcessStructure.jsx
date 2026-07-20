@@ -13,6 +13,6 @@ const CareProcessStructure = () => {
       <div id="cta"><CTASection /></div>
     </>
   );
-};
+}
 
 export default CareProcessStructure;

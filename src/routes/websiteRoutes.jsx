@@ -17,7 +17,6 @@ import CareProcessStructure from "../components/website/webStructures/pagesStruc
 import ServiceAreasStructure from "../components/website/webStructures/pagesStructure/ServiceAreasStructure.jsx";
 import HomeStructure from "../components/website/webStructures/pagesStructure/HomeStructure.jsx";
 import WhyChooseUsStructure from "../components/website/webStructures/pagesStructure/WhyChooseUsStructure.jsx";
-import CareProcessHeroSection from "../components/website/webStructures/Structures/ServiceComponents/CareProcessHeroSection.jsx";
 
 export const websiteRoutes = [
     // ── Home ──
