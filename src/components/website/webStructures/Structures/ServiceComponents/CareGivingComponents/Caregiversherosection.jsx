@@ -2,9 +2,26 @@ import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import { LuHouse, LuChevronRight } from "react-icons/lu";
 import { FontLoader } from "../../../../../ui/fonts";
+import caregiversBg from "/src/assets/HeroImages/careerpage.jpg";
+
 const CaregiversHeroSection = () => (
-    <section className="relative overflow-hidden bg-navy py-20 sm:py-24">
+    <section className="relative overflow-hidden py-20 sm:py-24">
         <FontLoader />
+
+        {/* ── Background photo ── */}
+        <div className="absolute inset-0">
+            <img
+                src={caregiversBg}
+                alt=""
+                aria-hidden="true"
+                className="w-full h-full object-cover"
+            />
+
+            {/* Dark overlay for text readability */}
+            <div className="absolute inset-0 bg-navy/85" />
+        </div>
+
+        {/* Accent blurs */}
         <div className="absolute -top-16 -left-16 w-64 h-64 rounded-full bg-magenta/15 blur-3xl" />
         <div className="absolute -bottom-20 -right-10 w-72 h-72 rounded-full bg-white/5 blur-3xl" />
 
@@ -15,11 +32,18 @@ const CaregiversHeroSection = () => (
                 transition={{ duration: 0.3 }}
             >
                 <div className="flex items-center justify-center gap-1.5 text-xs text-white/50 mb-6">
-                    <NavLink to="/home" className="flex items-center gap-1 hover:text-white/80 transition-colors">
+                    <NavLink
+                        to="/home"
+                        className="flex items-center gap-1 hover:text-white/80 transition-colors"
+                    >
                         <LuHouse size={12} /> Home
                     </NavLink>
+
                     <LuChevronRight size={12} />
-                    <span className="text-white/80">Meet Our Caregivers</span>
+
+                    <span className="text-white/80">
+                        Meet Our Caregivers
+                    </span>
                 </div>
 
                 <span className="inline-flex items-center gap-2 px-3 py-1 rounded-sm text-[11px] font-bold uppercase tracking-widest bg-white/10 text-white/80 border border-white/15 mb-5">
@@ -27,13 +51,16 @@ const CaregiversHeroSection = () => (
                 </span>
 
                 <h1 className="text-3xl sm:text-4xl font-light text-white leading-tight mb-4 max-w-xl mx-auto">
-                    Compassionate professionals<br />
-                    <span className="text-magenta font-normal">you can trust</span>
+                    Compassionate professionals
+                    <br />
+                    <span className="text-magenta font-normal">
+                        you can trust
+                    </span>
                 </h1>
 
                 <p className="text-sm text-white/60 leading-relaxed max-w-lg mx-auto">
-                    Our caregivers are the heart of our agency — selected not only for their
-                    skills, but for their kindness, patience, and integrity.
+                    Our caregivers are the heart of our agency — selected not only
+                    for their skills, but for their kindness, patience, and integrity.
                 </p>
             </motion.div>
         </div>

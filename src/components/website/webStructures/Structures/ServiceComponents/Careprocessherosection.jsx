@@ -2,10 +2,26 @@ import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import { LuHouse, LuChevronRight } from "react-icons/lu";
 import { FontLoader } from "../../../../ui/fonts";
+import careProcessBg from "/src/assets/HeroImages/careerpage.jpg";
 
 const CareProcessHeroSection = () => (
-    <section className="relative overflow-hidden bg-navy py-20 sm:py-24">
+    <section className="relative overflow-hidden py-20 sm:py-24">
         <FontLoader />
+
+        {/* ── Background photo ── */}
+        <div className="absolute inset-0">
+            <img
+                src={careProcessBg}
+                alt=""
+                aria-hidden="true"
+                className="w-full h-full object-cover"
+            />
+            {/* navy scrim over the photo so white text stays readable —
+                darker at the edges, slightly lighter toward center */}
+            <div className="absolute inset-0 bg-navy/85" />
+        </div>
+
+        {/* accent blurs, now sitting above the scrim for a bit of depth */}
         <div className="absolute -top-16 -left-16 w-64 h-64 rounded-full bg-magenta/15 blur-3xl" />
         <div className="absolute -bottom-20 -right-10 w-72 h-72 rounded-full bg-white/5 blur-3xl" />
 

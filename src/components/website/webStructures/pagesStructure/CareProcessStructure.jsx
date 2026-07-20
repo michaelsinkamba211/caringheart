@@ -2,7 +2,7 @@ import React from 'react';
 import ProcessPromiseSection from '../Structures/ServiceComponents/Processpromisesection';
 import CTASection from '../Structures/HomeComponents/Ctasection';
 import ProcessStepsSection from '../Structures/ServiceComponents/Processstepssection';
-import CareProcessHeroSection from '../Structures/ServiceComponents/Careprocessherosection';
+import CareProcessHeroSection from '../Structures/ServiceComponents/CareProcessHeroSection';
 
 const CareProcessStructure = () => {
   return (

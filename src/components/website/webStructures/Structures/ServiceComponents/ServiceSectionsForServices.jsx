@@ -1,104 +1,86 @@
-import {
-    LuUserRound, LuMessageCircleHeart, LuSprayCan, LuUtensils, LuPill,
-    LuBrain, LuMoon, LuSun, LuCar, LuHeartHandshake, LuActivity,LuCircleCheck
-} from "react-icons/lu";
-import { motion } from "framer-motion";
 
-import personalCareImage from "/src/assets/servicesimages/personaCare.jpg"
-import companioCare from "/src/assets/servicesimages/companionCare.jpg"
-import Homemaking from "/src/assets/servicesimages/Homemaking.jpg"
-import MealPreparation from "/src/assets/servicesimages/MealPreparation.jpg"
-import MedicationReminders from "/src/assets/servicesimages/MedicationReminders.jpg"
-
-import LiveInCare from "/src/assets/servicesimages/Live-InCare.jpg"
-import HourCare  from "/src/assets/servicesimages/24-HourCare.jpg"
-import TransportationErrands  from "/src/assets/servicesimages/TransportationErrands.jpg"
-import RespiteCare  from "/src/assets/servicesimages/RespiteCare.jpg"
-import HospitalRecovery   from "/src/assets/servicesimages/Post-HospitalRecovery.jpg"
-import DementiaCare   from "/src/assets/servicesimages/DementiaCare.jpg"
-import { FontLoader } from "../../../../ui/fonts";
+import Homemaking from "/src/assets/servicesimages/Homemaking.jpg";
+import MedicationReminders from "/src/assets/servicesimages/MedicationReminders.jpg";
+import HourCare from "/src/assets/servicesimages/24-HourCare.jpg";
 
 
-const ServiceDetailSection = ({
-    tag,
-    title,
-    description,
-    includes,
-    icon: Icon,
-    image,
-    reverse = false,
-    bg = "white"
-}) => (
-    <section className={`py-10 ${bg === "ivory" ? "bg-ivory" : "bg-white"}`}>
-        <FontLoader />
-        <div className="max-w-325 mx-auto">
-            <div className={`flex flex-col ${reverse ? "lg:flex-row-reverse" : "lg:flex-row"} gap-10 lg:gap-16 items-center`}>
+import ServiceDetailSection from "./ServiceDetailSection";
 
-                {/* icon panel */}
-                <motion.div
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    className="w-full lg:w-2/5 flex justify-center"
-                >
-                    <div className="w-full max-w-md rounded-sm overflow-hidden">
-
-                        {image ? (
-                            <div className="w-full lg:w-[480px] h-[500px] rounded-lg overflow-hidden shadow-lg">
-                                <img
-                                    src={image}
-                                    alt={title}
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                        ) : (
-                            Icon && (
-                                <div className="w-full h-full flex items-center justify-center">
-                                    <Icon size={64} className="text-magenta" strokeWidth={1.25} />
-                                </div>
-                            )
-                        )}
-                    </div>
-                </motion.div>
-
-                {/* content */}
-                <motion.div
-                    initial={{ opacity: 0, x: reverse ? -24 : 24 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    className="w-full lg:w-3/5"
-                >
-                    <span className="inline-flex items-center gap-2 px-3 py-1 rounded-sm text-[11px] font-bold uppercase tracking-widest bg-magenta/8 text-magenta border border-magenta/15 mb-4">
-                        {tag}
-                    </span>
-                    <h2 className="text-2xl sm:text-3xl font-light text-slate-800 leading-tight mb-4">
-                        {title}
-                    </h2>
-                    <p className="text-sm text-slate-500 leading-relaxed mb-6 max-w-lg">
-                        {description}
-                    </p>
-
-                    <div className="grid sm:grid-cols-2 gap-2.5">
-                        {includes.map((item) => (
-                            <div key={item} className="flex items-start gap-2 text-sm text-slate-600">
-                                <LuCircleCheck size={16} className="text-navy shrink-0 mt-0.5" />
-                                {item}
-                            </div>
-                        ))}
-                    </div>
-                </motion.div>
-            </div>
-        </div>
-    </section>
-);
+// images changed
 
 
+// personal care
+import personalCareImg from "/src/assets/serviceImages/personalCareImg.jpg"
+import personalCareImg2 from "/src/assets/serviceImages/personalCareImag2.jpg"
+import personalCareVid from "/src/assets/serviceImages/personalCareVideos.mp4"
+
+// companion care 
+import companionCareImg from "/src/assets/serviceImages/companionCareImg.jpg"
+import companionCareImg2 from "/src/assets/serviceImages/companionCareImg2.jpg"
+
+
+// home making
+
+
+// meal preparation
+import MealPreparationImg from "/src/assets/serviceImages/mealPreparationImg.jpg"
+import MealPreparationImg2 from "/src/assets/serviceImages/mealPreparationImg2.jpg"
+import mealpPreparationVid from "/src/assets/serviceImages/mealPreparationVid.mp4"
+
+// mediacal reminders
+
+
+// alzheimer dementia
+import alzheimerImg from "/src/assets/serviceImages/azhemiaImg.jpg"
+import alzheimerImg2 from "/src/assets/serviceImages/azhemiaImg2.jpg"
+import alzheimerVide from "/src/assets/serviceImages/azhemiasVid.mp4"
+
+// live in care
+import liveInCareImg from "/src/assets/serviceImages/liveInCare.jpg"
+import liveInCareImg2 from "/src/assets/serviceImages/liveinCareImg2.jpg"
+
+
+
+// 24 hour care
+
+
+
+// transportation
+import TransportationImg from "/src/assets/serviceImages/transportationImg.jpg"
+import TransportationImg2 from "/src/assets/serviceImages/TransportationImg2.jpg"
+
+
+// respite care
+import respiteCareImg from "/src/assets/serviceImages/respiteCareImg.jpg"
+import respiteCareImg2 from "/src/assets/serviceImages/respiteCareimg2.jpg"
+
+
+// post hospital
+import postHospitalImg from "/src/assets/serviceImages/postHospitalImg.jpg"
+import postHospitalImg2 from "/src/assets/serviceImages/postHopitalImg2.jpg"
+import postHospitalImg3 from "/src/assets/serviceImages/posotHopitalImg3.jpg"
+
+
+// laundry
+
+import LaundryImg from "/src/assets/serviceImages/laundryImg.jpg"
+/**
+ * Each service's `media` is an array — mix images and videos freely, in any
+ * order, any count. Item shape:
+ *   { type: "image", src, alt? }
+ *   { type: "video", src, poster?, alt? }
+ * The slider handles 1 item (no arrows/dots shown) all the way up to
+ * however many you add.
+ */
 
 export const PersonalCareSection = () => (
     <ServiceDetailSection
-        // icon={LuUserRound}
-        image={personalCareImage}
+        media={[
 
+            { type: "video", src: personalCareVid, alt: "Caregiver assisting with personal care" },
+            { type: "image", src: personalCareImg, alt: "Caregiver assisting with personal care" },
+            { type: "image", src: personalCareImg2, alt: "Caregiver assisting with personal care" },
+        ]}
         tag="Daily Living"
         title="Personal Care Assistance"
         description="Helping clients safely manage daily personal care while maintaining dignity and independence."
@@ -115,7 +97,10 @@ export const PersonalCareSection = () => (
 
 export const CompanionCareSection = () => (
     <ServiceDetailSection
-        image={companioCare}
+        media={[
+            { type: "image", src: companionCareImg, alt: "Caregiver and client sharing a conversation" },
+            { type: "image", src: companionCareImg2, alt: "Caregiver and client sharing a conversation" },
+        ]}
         tag="Emotional Wellbeing"
         title="Companion Care"
         description="Providing meaningful companionship, conversation, and emotional support to reduce loneliness."
@@ -130,9 +115,33 @@ export const CompanionCareSection = () => (
     />
 );
 
+
+
+export const LaundrySection = () => (
+    <ServiceDetailSection
+        media={[
+            { type: "image", src: LaundryImg, alt: "Caregiver helping with laundry and linens" },
+        ]}
+        tag="Household Support"
+        title="Laundry"
+        description="Keeping clothes and linens clean, fresh, and organized — one less task for clients and families to worry about."
+        includes={[
+            "Washing, drying & folding",
+            "Bed linens & towels",
+            "Ironing (where needed)",
+            "Putting laundry away",
+        ]}
+        reverse
+        bg="ivory"
+    />
+);
+
+
 export const HomemakingSection = () => (
     <ServiceDetailSection
-        image={Homemaking}
+        media={[
+            { type: "image", src: Homemaking, alt: "Caregiver helping with light housekeeping" },
+        ]}
         tag="Household Support"
         title="Homemaking"
         description="Light housekeeping, laundry, organizing, grocery shopping, and maintaining a safe living environment."
@@ -148,7 +157,11 @@ export const HomemakingSection = () => (
 
 export const MealPreparationSection = () => (
     <ServiceDetailSection
-        image={MealPreparation}
+        media={[
+            { type: "video", src: mealpPreparationVid, alt: "Caregiver preparing a nutritious meal" },
+            { type: "image", src: MealPreparationImg, alt: "Caregiver preparing a nutritious meal" },
+            { type: "image", src: MealPreparationImg2, alt: "Caregiver preparing a nutritious meal" },
+        ]}
         tag="Nutrition"
         title="Meal Preparation"
         description="Nutritious meal planning and preparation tailored to dietary needs and personal preferences."
@@ -165,7 +178,9 @@ export const MealPreparationSection = () => (
 
 export const MedicationRemindersSection = () => (
     <ServiceDetailSection
-        image={MedicationReminders}
+        media={[
+            { type: "image", src: MedicationReminders, alt: "Caregiver helping with a medication reminder" },
+        ]}
         tag="Health Support"
         title="Medication Reminders"
         description="Helping clients stay on schedule with prescribed medications — non-medical reminder support only."
@@ -181,7 +196,11 @@ export const MedicationRemindersSection = () => (
 
 export const DementiaCareSection = () => (
     <ServiceDetailSection
-        image={DementiaCare}
+        media={[
+            { type: "video", src: alzheimerVide, alt: "Caregiver providing calm, patient dementia support" },
+            { type: "image", src: alzheimerImg, alt: "Caregiver providing calm, patient dementia support" },
+            { type: "image", src: alzheimerImg2, alt: "Caregiver providing calm, patient dementia support" },
+        ]}
         tag="Specialized Care"
         title="Alzheimer's & Dementia Care"
         description="Specialized compassionate support designed to improve safety, comfort, and quality of life."
@@ -196,10 +215,12 @@ export const DementiaCareSection = () => (
     />
 );
 
-
 export const LiveInCareSection = () => (
     <ServiceDetailSection
-        image={LiveInCare}
+        media={[
+            { type: "image", src: liveInCareImg, alt: "Live-in caregiver supporting a client at home" },
+            { type: "image", src: liveInCareImg2, alt: "Live-in caregiver supporting a client at home" },
+        ]}
         tag="Round-the-Clock"
         title="Live-In Care"
         description="Continuous one-on-one support for individuals requiring around-the-clock assistance, delivered by a caregiver residing in the home."
@@ -215,7 +236,9 @@ export const LiveInCareSection = () => (
 
 export const TwentyFourHourCareSection = () => (
     <ServiceDetailSection
-        image={HourCare}
+        media={[
+            { type: "image", src: HourCare, alt: "24-hour caregiver support" },
+        ]}
         tag="Round-the-Clock"
         title="24-Hour Care"
         description="Care available day and night through rotating caregiver shifts, providing peace of mind for clients and families."
@@ -232,7 +255,10 @@ export const TwentyFourHourCareSection = () => (
 
 export const TransportationSection = () => (
     <ServiceDetailSection
-        image={TransportationErrands}
+        media={[
+            { type: "image", src: TransportationImg, alt: "Caregiver providing transportation support" },
+            { type: "image", src: TransportationImg2, alt: "Caregiver providing transportation support" },
+        ]}
         tag="Getting Around"
         title="Transportation & Errands"
         description="Safe transportation to appointments, shopping, and community activities."
@@ -246,10 +272,12 @@ export const TransportationSection = () => (
     />
 );
 
-
 export const RespiteCareSection = () => (
     <ServiceDetailSection
-        image={RespiteCare}
+        media={[
+            { type: "image", src: respiteCareImg, alt: "Caregiver providing respite support" },
+            { type: "image", src: respiteCareImg2, alt: "Caregiver providing respite support" },
+        ]}
         tag="Family Relief"
         title="Respite Care"
         description="Temporary relief that allows family caregivers time to rest while ensuring loved ones continue receiving quality care."
@@ -266,7 +294,11 @@ export const RespiteCareSection = () => (
 
 export const PostHospitalRecoverySection = () => (
     <ServiceDetailSection
-        image={HospitalRecovery}
+        media={[
+            { type: "image", src: postHospitalImg, alt: "Caregiver supporting post-hospital recovery" },
+            { type: "image", src: postHospitalImg3, alt: "Caregiver supporting post-hospital recovery" },
+            { type: "image", src: postHospitalImg2, alt: "Caregiver supporting post-hospital recovery" },
+        ]}
         tag="Transition Support"
         title="Post-Hospital Recovery"
         description="Compassionate support during the critical transition from hospital to home, helping reduce readmission risk and support a smooth recovery."

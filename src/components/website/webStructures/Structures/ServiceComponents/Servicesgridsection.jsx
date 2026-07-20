@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import {
     LuUserRound, LuMessageCircleHeart, LuSprayCan, LuUtensils, LuPill,
-    LuBrain, LuMoon, LuSun, LuCar, LuHeartHandshake, LuActivity,
+    LuBrain, LuMoon, LuSun, LuCar, LuHeartHandshake, LuActivity, LuWashingMachine,
 } from "react-icons/lu";
 import { FontLoader } from "../../../../ui/fonts";
 
@@ -9,6 +9,7 @@ const SERVICES = [
     { icon: LuUserRound,          label: "Personal Care Assistance",     sectionId: "personal-care" },
     { icon: LuMessageCircleHeart, label: "Companion Care",               sectionId: "companion-care" },
     { icon: LuSprayCan,           label: "Homemaking",                   sectionId: "homemaking" },
+    { icon: LuWashingMachine,     label: "Laundry",                      sectionId: "laundry" },
     { icon: LuUtensils,           label: "Meal Preparation",             sectionId: "meal-preparation" },
     { icon: LuPill,                label: "Medication Reminders",        sectionId: "medication-reminders" },
     { icon: LuBrain,               label: "Alzheimer's & Dementia Care", sectionId: "dementia-care" },
@@ -31,7 +32,7 @@ const scrollToSection = (sectionId) => {
 const ServicesGridSection = () => (
     <section className="py-10 bg-white">
         <FontLoader />
-        <div className="max-w-325 mx-auto px-2">
+        <div className="max-w-325 mx-auto px-4 sm:px-8">
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                 {SERVICES.map(({ icon: Icon, label, sectionId }, i) => (
                     <motion.button
