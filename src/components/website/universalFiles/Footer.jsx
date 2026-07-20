@@ -175,7 +175,7 @@ const Footer = () => {
                                 <div>
                                     <p className="text-white/40 text-xs">Business Hours</p>
                                     <p className="text-white/80 text-sm">Mon–Fri: 8:00 AM – 5:00 PM</p>
-                                    <p className="text-white/80 text-sm">Sat: 9:00 AM – 5:00 PM</p>
+                                    <p className="text-white/80 text-sm">Sat/Sun: 9:00 AM – 5:00 PM</p>
                                     <p className="text-white/40 text-xs mt-0.5">24/7 emergency support available</p>
                                 </div>
                             </div>
