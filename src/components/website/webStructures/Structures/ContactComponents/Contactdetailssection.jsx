@@ -23,7 +23,7 @@ const DETAILS = [
     {
         icon: LuClock,
         label: "Business Hours",
-        value: "Mon–Fri: 8:00 AM – 5:00 PM",
+        value: "Mon–Fri: 8:00 AM – 5:00 PM & Sart-Sun  9:00 AM – 5:00PM ",
         sub: "24/7 emergency support available",
     },
 ];

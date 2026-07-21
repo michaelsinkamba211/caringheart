@@ -77,7 +77,7 @@ const HeroSection = () => {
                     <div className="flex items-center gap-1.5 mt-5">
                         <LuShieldCheck size={13} className="text-navy shrink-0" />
                         <span className="text-xs text-slate-500">
-                            Licensed, bonded &amp; insured
+                            Registered, bonded &amp; insured
                             <span className="hidden sm:inline"> — every caregiver background-checked</span>
                         </span>
                     </div>

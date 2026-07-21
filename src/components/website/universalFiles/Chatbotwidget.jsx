@@ -100,8 +100,8 @@ const KNOWLEDGE_BASE = [
 
     // ── Caregivers ──
     {
-        keywords: ["background", "screened", "insured", "licensed", "bonded", "trust", "vetted", "safe"],
-        answer: "Every caregiver undergoes background checks, interviews, and reference verification before joining our team, and Caring Hearts is licensed, bonded, and insured as an agency.",
+        keywords: ["background", "screened", "insured", "registered", "bonded", "trust", "vetted", "safe"],
+        answer: "Every caregiver undergoes background checks, interviews, and reference verification before joining our team, and Caring Hearts is registered, bonded, and insured as an agency.",
     },
     {
         keywords: ["how are caregivers selected", "hiring process", "who are your caregivers", "caregiver qualifications"],
@@ -185,7 +185,7 @@ const KNOWLEDGE_BASE = [
     // ── Contact ──
     {
         keywords: ["hours", "open", "office hours", "business hours", "when are you open"],
-        answer: "Our office is open Monday–Friday, 8:00 AM – 5:00 PM, with 24/7 emergency support available outside regular business hours.",
+        answer: "Our office is open Monday–Friday, 8:00 AM – 5:00 PM, and Sartuday - Sunday 9:00AM - 5:00PM with 24/7 emergency support available outside regular business hours.",
     },
     {
         keywords: ["phone", "call", "number", "contact number"],

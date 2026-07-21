@@ -66,7 +66,7 @@ const Footer = () => {
                                 <div className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center">
                                     <LuShield className="w-3 h-3 text-magenta" />
                                 </div>
-                                <span>Licensed, Bonded &amp; Insured</span>
+                                <span>Registered, Bonded &amp; Insured</span>
                             </div>
                             <div className="flex items-center gap-3 text-white/80 text-sm">
                                 <div className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center">

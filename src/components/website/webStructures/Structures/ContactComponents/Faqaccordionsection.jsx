@@ -28,7 +28,7 @@ const FAQS = [
     },
     {
         q: "Are your caregivers screened and insured?",
-        a: "Yes. Every caregiver undergoes background checks, interviews, and reference verification before joining our team, and we are licensed, bonded, and insured as an agency.",
+        a: "Yes. Every caregiver undergoes background checks, interviews, and reference verification before joining our team, and we are registered, bonded, and insured as an agency.",
     },
     {
         q: "Can I change my caregiver if it's not the right fit?",
@@ -44,7 +44,7 @@ const FAQS = [
     },
     {
         q: "What are your office hours?",
-        a: "Our office is open Monday–Friday, 8:00 AM – 5:00 PM, with 24/7 emergency support available outside regular business hours.",
+        a: "Our office is open Monday–Friday, 8:00 AM – 5:00 PM and Sartuday - Sunday 9:00 AM – 5:00 PM, with 24/7 emergency support available outside regular business hours.",
     },
 ];
 
