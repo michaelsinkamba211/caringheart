@@ -18,7 +18,7 @@ const DETAILS = [
     {
         icon: LuMapPin,
         label: "Office",
-        value: "303 Wyman Street, Suite 300, Waltham, MA 02451",
+        value: "303 Wyman Street, Suite 300 PMB 17296683, Waltham, MA 02451",
     },
     {
         icon: LuClock,

@@ -126,7 +126,7 @@ const TermsOfService = () => {
                         {[
                             { icon: LuMail, text: "info@caringheartssolutions.com" },
                             { icon: LuPhone, text: "(857) 277-9073" },
-                            { icon: LuMapPin, text: "303 Wyman Street, Suite 300, Waltham, MA 02451" },
+                            { icon: LuMapPin, text: "303 Wyman Street, Suite 300 PMB 17296683, Waltham, MA 02451" },
                         ].map(({ icon: Icon, text }) => (
                             <div key={text} className="flex items-center gap-3">
                                 <div className="w-7 h-7 rounded-sm bg-magenta/10 flex items-center justify-center shrink-0">

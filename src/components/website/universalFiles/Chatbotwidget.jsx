@@ -197,7 +197,7 @@ const KNOWLEDGE_BASE = [
     },
     {
         keywords: ["address", "office", "where are you located", "where is your office"],
-        answer: "Our office is at 303 Wyman Street, Suite 300, Waltham, MA 02451.",
+        answer: "Our office is at 303 Wyman Street, Suite 300 PMB 17296683, Waltham, MA 02451.",
     },
 ];
 

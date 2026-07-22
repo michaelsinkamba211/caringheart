@@ -5,7 +5,15 @@ import { NavLink } from "react-router-dom";
 import { message } from "antd";
 import {
     LuArrowRight, LuPhone, LuMail, LuMapPin, LuClock,
-    LuShield, LuBadgeCheck, LuHeadphones, LuYoutube, LuTwitter,
+    LuShield, LuBadgeCheck, LuHeadphones,
+} from "react-icons/lu";
+
+import {
+    LuFacebook,
+    LuInstagram,
+    LuTwitter,
+    LuYoutube,
+    LuMusic2,
 } from "react-icons/lu";
 
 
@@ -162,8 +170,10 @@ const Footer = () => {
                                 <div>
                                     <p className="text-white/40 text-xs">Office</p>
                                     <p className="text-white/80 text-sm">
-                                        303 Wyman Street, Suite 300<br />
-                                        Waltham, MA 02451
+
+                                        303 Wyman Street, Suite 300 PMB 17296683<br /> Waltham, MA 02451
+
+
                                     </p>
                                 </div>
                             </div>
@@ -211,24 +221,59 @@ const Footer = () => {
 
                         {/* Social Links */}
                         <div className="flex items-center gap-3">
+                            {/* Facebook */}
                             <a
-                                href="https://www.youtube.com/"
+                                href="https://www.facebook.com/share/1borqwCL3b/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-magenta hover:text-white transition-all duration-300 hover:-translate-y-0.5"
+                                aria-label="Facebook"
+                            >
+                                <LuFacebook className="w-3 h-3" />
+                            </a>
+
+                            {/* Instagram */}
+                            <a
+                                href="https://www.instagram.com/caring_heartssolutions?igsh=MTV0N2hyM21tOGozOQ=="
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-magenta hover:text-white transition-all duration-300 hover:-translate-y-0.5"
+                                aria-label="Instagram"
+                            >
+                                <LuInstagram className="w-3 h-3" />
+                            </a>
+
+                            {/* TikTok */}
+                            <a
+                                href="https://www.tiktok.com/@caring.hearts.home?_r=1&_t=ZT-98EPMmAT7kM"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-magenta hover:text-white transition-all duration-300 hover:-translate-y-0.5"
+                                aria-label="TikTok"
+                            >
+                                <LuMusic2 className="w-3 h-3" />
+                            </a>
+
+                            {/* X (Twitter) */}
+                            <a
+                                href="https://x.com/caringhearzxt"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-magenta hover:text-white transition-all duration-300 hover:-translate-y-0.5"
+                                aria-label="X"
+                            >
+                                <LuTwitter className="w-3 h-3" />
+                            </a>
+
+                            {/* YouTube */}
+                            <a
+                                href="https://www.youtube.com/@CaringHeartsHomeCareSolutions"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-magenta hover:text-white transition-all duration-300 hover:-translate-y-0.5"
                                 aria-label="YouTube"
                             >
                                 <LuYoutube className="w-3 h-3" />
-                            </a>
-
-                            <a
-                                href="https://twitter.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-magenta hover:text-white transition-all duration-300 hover:-translate-y-0.5"
-                                aria-label="Twitter"
-                            >
-                                <LuTwitter className="w-3 h-3" />
                             </a>
                         </div>
                     </div>

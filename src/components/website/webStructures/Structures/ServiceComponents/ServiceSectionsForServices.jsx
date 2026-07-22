@@ -46,6 +46,7 @@ import liveInCareImg2 from "/src/assets/serviceImages/liveinCareImg2.jpg"
 
 
 // transportation
+import TransportationImg1 from "/src/assets/servicesimages/transportation.jpg"
 import TransportationImg from "/src/assets/serviceImages/transportationImg.jpg"
 import TransportationImg2 from "/src/assets/serviceImages/TransportationImg2.jpg"
 
@@ -256,6 +257,7 @@ export const TwentyFourHourCareSection = () => (
 export const TransportationSection = () => (
     <ServiceDetailSection
         media={[
+            { type: "image", src: TransportationImg1, alt: "Caregiver providing transportation support" },
             { type: "image", src: TransportationImg, alt: "Caregiver providing transportation support" },
             { type: "image", src: TransportationImg2, alt: "Caregiver providing transportation support" },
         ]}
