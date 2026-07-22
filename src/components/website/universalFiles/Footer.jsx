@@ -7,6 +7,7 @@ import {
     LuArrowRight, LuPhone, LuMail, LuMapPin, LuClock,
     LuShield, LuBadgeCheck, LuHeadphones,
 } from "react-icons/lu";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import {
     LuFacebook,
@@ -15,6 +16,7 @@ import {
     LuYoutube,
     LuMusic2,
 } from "react-icons/lu";
+
 
 
 const SITE_NAME = "Caring Hearts";
@@ -39,7 +41,39 @@ const LEGAL_LINKS = [
     { name: "Notice of Privacy Practices", to: "/notice-of-privacy-practices" },
 ];
 
+const SERVICES = [
+    { name: "Personal Care Assistance", id: "personal-care" },
+    { name: "Companion Care", id: "companion-care" },
+    { name: "Homemaking", id: "homemaking" },
+    { name: "Meal Preparation", id: "meal-preparation" },
+    { name: "Alzheimer's & Dementia Care", id: "dementia-care" },
+    { name: "Live-In Care", id: "live-in-care" },
+    { name: "24-Hour Care", id: "24-hour-care" },
+    { name: "Respite Care", id: "respite-care" },
+];
+
+
 const Footer = () => {
+
+
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const handleServiceLinkClick = (e, id) => {
+        if (location.pathname === "/services") {
+            // Already on the services page — just scroll, no navigation needed
+            e.preventDefault();
+            const el = document.getElementById(id);
+            if (el) {
+                el.scrollIntoView({ behavior: "smooth", block: "start" });
+                navigate(`/services#${id}`, { replace: true }); // keep URL in sync
+            }
+        }
+        // Otherwise let the NavLink navigate normally to /services#id,
+        // and the ScrollToHash component (below) handles scrolling on load.
+    };
+
+
     return (
         <footer className="bg-navy border-t border-white/10">
             {/* Main Footer Content */}
@@ -113,22 +147,22 @@ const Footer = () => {
                     </div>
 
                     {/* Column 3: Services Info (descriptive, not clickable) */}
+                    {/* Column 3: Services (now clickable) */}
                     <div className="lg:col-span-3">
                         <h4 className="text-white text-sm font-bold uppercase tracking-wider mb-5">
                             Our Services
                         </h4>
                         <ul className="space-y-2.5">
-                            {[
-                                "Personal Care Assistance",
-                                "Companion Care",
-                                "Homemaking & Meal Prep",
-                                "Alzheimer's & Dementia Care",
-                                "24-Hour & Live-In Care",
-                                "Respite Care",
-                            ].map((service) => (
-                                <li key={service} className="text-white/60 text-sm flex items-center gap-2">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-magenta" />
-                                    {service}
+                            {SERVICES.map((service) => (
+                                <li key={service.id}>
+                                    <NavLink
+                                        to={`/services#${service.id}`}
+                                        onClick={(e) => handleServiceLinkClick(e, service.id)}
+                                        className="text-white/60 hover:text-magenta transition-colors duration-200 text-sm flex items-center gap-2 group cursor-pointer"
+                                    >
+                                        <span className="w-1.5 h-1.5 rounded-full bg-magenta shrink-0" />
+                                        {service.name}
+                                    </NavLink>
                                 </li>
                             ))}
                         </ul>

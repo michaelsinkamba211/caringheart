@@ -6,6 +6,7 @@ import Footer from '/src/components/website/universalFiles/Footer.jsx';
 import { ToastContainer } from 'react-toastify';
 
 import 'react-toastify/ReactToastify.css'
+import ScrollToHash from './ScrollToHash';
 
 const MainLayout = () => {
   const location = useLocation(); 
@@ -22,6 +23,8 @@ const MainLayout = () => {
   return (
     <>
       <NavBar />
+
+         <ScrollToHash />
       <div className={`page ${routeChanging ? 'fade-in' : ''} `}>
         <Outlet/>
       </div>

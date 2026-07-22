@@ -19,7 +19,6 @@ const ServicesStructure = () => {
       <div id="personal-care"><PersonalCareSection /></div>
       <div id="companion-care"><CompanionCareSection /></div>
       <div id="homemaking"><HomemakingSection /></div>
-     
       <div id="meal-preparation"><MealPreparationSection /></div>
       <div id="medication-reminders"><MedicationRemindersSection /></div>
       <div id="dementia-care"><DementiaCareSection /></div>
@@ -33,5 +32,4 @@ const ServicesStructure = () => {
     </>
   );
 };
-
 export default ServicesStructure;
